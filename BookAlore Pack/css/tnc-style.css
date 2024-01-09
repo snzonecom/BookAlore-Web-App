@@ -1,0 +1,106 @@
+﻿* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-tnc {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/tnc-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.h3-tnc {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.9rem;
+}
+
+.terms{
+    max-width: 80em;
+    background-color:#679289;
+    opacity: 0.9;
+    padding: 20px 30px;
+}
+
+.container-fluid img {
+    max-width: 3em;
+}
+
+.text{
+    padding: 0 20px;
+    height: 40em;
+    overflow-y: auto;
+}
+
+.text::-webkit-scrollbar{
+    width:5px;
+    background-color: #282828;
+}
+
+.text::-webkit-scrollbar-thumb{
+    background-color:#1d7874;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #071e22;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #679289;
+}
+
+.h4-tnc {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.h5-tnc {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.p-tnc {
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.ul-tnc {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.agree{
+    text-align: center;
+}
+
+.btn-tnc{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    transition: .3s linear;
+    cursor: pointer;
+}
+

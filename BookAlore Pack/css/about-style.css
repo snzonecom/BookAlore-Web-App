@@ -1,0 +1,32 @@
+:root {
+    --darkest-grn: #071E22;
+    --dark-grn: #1d7874;
+    --pale-grn: #679289;
+    --skintone: #f4c095;
+    --subred: #ee2e31;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid img {
+    max-width: 3em;
+}
+
+nav {
+    font-size: large; font-weight: 700; color: var(--dark-grn);
+}
+
+.log-button button {
+    width: 100%;
+}
+
+.regi-button button {
+    width: 50%;
+}
+
+.forda-grn {
+    color: #1d7874;
+    font-weight: bold;
+}

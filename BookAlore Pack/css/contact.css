@@ -1,0 +1,68 @@
+:root {
+    --darkest-grn: #071E22;
+    --dark-grn: #1d7874;
+    --pale-grn: #679289;
+    --skintone: #f4c095;
+    --subred: #ee2e31;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid img {
+    max-width: 3em;
+}
+
+nav {
+    font-size: large; font-weight: 700; color: var(--dark-grn);
+}
+
+.log-button button {
+    width: 100%;
+}
+
+.regi-button button {
+    width: 50%;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    max-width:1200px;
+    align-items: center; 
+    padding: 0 20px;
+}
+
+.card{
+        background: #1d7874;
+        padding: 0 40px;
+        margin: 0 20px;
+        width: calc(50% - 30px);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        height: 170px;
+        color: whitesmoke;
+    }
+
+.card-icon{
+        font-size:28px;
+        background: #071E25;
+        width:60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px !important;
+        border-radius: 50%;
+
+    }
+
+    .card:hover{
+        background:#071E22;
+        box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);  
+    }
+
+    .map{
+        padding:30px;
+    }
