@@ -19,10 +19,10 @@ Run the XAMPP Control Panel
   > Start Apache Module
   > Start MySQL Module
 
-Setup database (mongo)
+Setup Database
   > using a browser, enter localhost/phpmyadmin/ in the address bar
   > create a database named 'bookalore'
   > inside 'bookalore' database, import the file named 'bookalore.sql'
 
-Run the PHP
+Run the Web Application
   > enter http://localhost/BookAlore/home.php in your browser's address bar
