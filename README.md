@@ -9,3 +9,20 @@ BookAlore is a booking web application system designed to simplify the process o
      PARAS, SHANE NICOLE B.
  
 The main goal of BookAlore is to benefit both travelers and business owners. For travelers, the website offers a hassle-free booking process, eliminating the need for on-site booking. Additionally, the website promotes underrated rental homes in the Pampanga area, which can save travelers money compared to staying at hotels.
+
+**LAUNCH THE WEB APPLICATION**
+
+* check if Path - ?:\xampp\php is in your system environment variables
+* make sure you placed the web application folder inside xampp/htdocs folder
+
+Run the XAMPP Control Panel
+  > Start Apache Module
+  > Start MySQL Module
+
+Setup database (mongo)
+  > using a browser, enter localhost/phpmyadmin/ in the address bar
+  > create a database named 'bookalore'
+  > inside 'bookalore' database, import the file named 'bookalore.sql'
+
+Run the PHP
+  > enter http://localhost/BookAlore/home.php in your browser's address bar
