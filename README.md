@@ -13,7 +13,7 @@ The main goal of BookAlore is to benefit both travelers and business owners. For
 **LAUNCH THE WEB APPLICATION**
 
 * check if Path - ?:\xampp\php is in your system environment variables
-* make sure you placed the web application folder inside xampp/htdocs folder
+* make sure you placed the web application folder inside xampp/htdocs
 
 Run the XAMPP Control Panel
   > Start Apache Module
